@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ATNB.Models.TblBook>
+
+@{
+    ViewBag.Title = "Pay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var ss = Session["ammount"];
+}
+
+<h2>Cart</h2>
+@if (Model != null)
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <th>
+                    @Html.HiddenFor(model => item.ImgUrl)
+                    <img src="~/Content/Images/Products/@item.ImgUrl" class="img-responsive" />
+                </th>1
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.EditorFor(modelItem => item.Quantity)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+        <tr>
+            <td colspan="6" style="color:red;font-size:18px;font-weight:bold;">Ammount: @ss VND</td>
+        </tr>
+        <tr>
+            <td><a class="btn btn-success" href="~/Home/Payment/">Pay</a></td>
+        </tr>
+    </table>
+}
+else
+{
+    <h4>Nothing in your cart</h4>
+}
+
+

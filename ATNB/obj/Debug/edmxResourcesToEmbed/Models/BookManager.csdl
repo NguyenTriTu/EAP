@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BookStoreModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tblAuthor">
+    <Key>
+      <PropertyRef Name="AuthorId" />
+    </Key>
+    <Property Name="AuthorId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AuthorName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblBooks" Relationship="Self.FK__tblBooks__Author__2D27B809" FromRole="tblAuthors" ToRole="tblBooks" />
+  </EntityType>
+  <EntityType Name="tblBook">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="PublisherId" Type="Int32" />
+    <Property Name="AuthorId" Type="Int32" />
+    <Property Name="Summary" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="ImgUrl" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifieldDate" Type="DateTime" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="tblAuthor" Relationship="Self.FK__tblBooks__Author__2D27B809" FromRole="tblBooks" ToRole="tblAuthors" />
+    <NavigationProperty Name="tblCategory" Relationship="Self.FK__tblBooks__Catego__2B3F6F97" FromRole="tblBooks" ToRole="tblCategories" />
+    <NavigationProperty Name="tblPublisher" Relationship="Self.FK__tblBooks__Publis__2C3393D0" FromRole="tblBooks" ToRole="tblPublishers" />
+    <NavigationProperty Name="tblComments" Relationship="Self.FK__tblCommen__BookI__30F848ED" FromRole="tblBooks" ToRole="tblComments" />
+  </EntityType>
+  <EntityType Name="tblCategory">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblBooks" Relationship="Self.FK__tblBooks__Catego__2B3F6F97" FromRole="tblCategories" ToRole="tblBooks" />
+  </EntityType>
+  <EntityType Name="tblComment">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BookId" Type="Int32" />
+    <Property Name="Content" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="tblBook" Relationship="Self.FK__tblCommen__BookI__30F848ED" FromRole="tblComments" ToRole="tblBooks" />
+  </EntityType>
+  <EntityType Name="tblPublisher">
+    <Key>
+      <PropertyRef Name="PublisherId" />
+    </Key>
+    <Property Name="PublisherId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PublisherName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblBooks" Relationship="Self.FK__tblBooks__Publis__2C3393D0" FromRole="tblPublishers" ToRole="tblBooks" />
+  </EntityType>
+  <EntityType Name="tblUser">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <Association Name="FK__tblBooks__Author__2D27B809">
+    <End Role="tblAuthors" Type="Self.tblAuthor" Multiplicity="0..1" />
+    <End Role="tblBooks" Type="Self.tblBook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblAuthors">
+        <PropertyRef Name="AuthorId" />
+      </Principal>
+      <Dependent Role="tblBooks">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblBooks__Catego__2B3F6F97">
+    <End Role="tblCategories" Type="Self.tblCategory" Multiplicity="0..1" />
+    <End Role="tblBooks" Type="Self.tblBook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCategories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="tblBooks">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblBooks__Publis__2C3393D0">
+    <End Role="tblPublishers" Type="Self.tblPublisher" Multiplicity="0..1" />
+    <End Role="tblBooks" Type="Self.tblBook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPublishers">
+        <PropertyRef Name="PublisherId" />
+      </Principal>
+      <Dependent Role="tblBooks">
+        <PropertyRef Name="PublisherId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblCommen__BookI__30F848ED">
+    <End Role="tblBooks" Type="Self.tblBook" Multiplicity="0..1" />
+    <End Role="tblComments" Type="Self.tblComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblBooks">
+        <PropertyRef Name="BookId" />
+      </Principal>
+      <Dependent Role="tblComments">
+        <PropertyRef Name="BookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BookStoreEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblAuthors" EntityType="Self.tblAuthor" />
+    <EntitySet Name="tblBooks" EntityType="Self.tblBook" />
+    <EntitySet Name="tblCategories" EntityType="Self.tblCategory" />
+    <EntitySet Name="tblComments" EntityType="Self.tblComment" />
+    <EntitySet Name="tblPublishers" EntityType="Self.tblPublisher" />
+    <EntitySet Name="tblUsers" EntityType="Self.tblUser" />
+    <AssociationSet Name="FK__tblBooks__Author__2D27B809" Association="Self.FK__tblBooks__Author__2D27B809">
+      <End Role="tblAuthors" EntitySet="tblAuthors" />
+      <End Role="tblBooks" EntitySet="tblBooks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblBooks__Catego__2B3F6F97" Association="Self.FK__tblBooks__Catego__2B3F6F97">
+      <End Role="tblCategories" EntitySet="tblCategories" />
+      <End Role="tblBooks" EntitySet="tblBooks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblBooks__Publis__2C3393D0" Association="Self.FK__tblBooks__Publis__2C3393D0">
+      <End Role="tblPublishers" EntitySet="tblPublishers" />
+      <End Role="tblBooks" EntitySet="tblBooks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblCommen__BookI__30F848ED" Association="Self.FK__tblCommen__BookI__30F848ED">
+      <End Role="tblBooks" EntitySet="tblBooks" />
+      <End Role="tblComments" EntitySet="tblComments" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

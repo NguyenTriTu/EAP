@@ -1,0 +1,114 @@
+﻿@model IEnumerable<ATNB.Models.TblBook>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdminPage.cshtml";
+
+}
+
+<br/>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-striped table-bordered" id="tblBook">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    <img src="~/Content/Images/Products/@item.ImgUrl" class="img-responsive" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    <div>
+                        <a href="" data-toggle="modal" data-target="#@item.BookId">Details</a>
+                        <div class="modal fade" id="@item.BookId" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Details Book</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        @{ Html.RenderPartial("~/Areas/Admin/Views/Books/Details.cshtml", item);}
+                                        <p type="button" class="glyphicon glyphicon-backward" data-dismiss="modal"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <td>
+                    <div>
+                        <a href="" data-toggle="modal" data-target="#@item.BookId-a">Edit</a>
+                        <div class="modal fade" id="@item.BookId-a" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Editing Book</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        @{ Html.RenderPartial("~/Areas/Admin/Views/Books/Edit.cshtml", item);}
+                                        <p type="button" class="glyphicon glyphicon-backward" data-dismiss="modal"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <a href="" data-toggle="modal" data-target="#@item.BookId-b">Delete</a>
+                        <div class="modal fade" id="@item.BookId-b" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Confirm Deleting Book</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        @{ Html.RenderPartial("~/Areas/Admin/Views/Books/Delete.cshtml", item);}
+                                        <p type="button" class="glyphicon glyphicon-backward" data-dismiss="modal"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+}
+    </tbody>
+</table>

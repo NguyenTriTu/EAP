@@ -1,0 +1,20 @@
+﻿@model ATNB.Models.TblBook
+
+<div id="bookDetails">
+    <div class="row">
+        <div class="col-md-6 product_img">
+            <img src="~/Content/Images/Products/@Model.ImgUrl" class="img-responsive">
+        </div>
+        <div class="col-md-6 product_content">
+            <p class="product-tit">Title: @Model.Title</p>
+            <p class="product-aut">Author: @Model.TblAuthor.AuthorName</p>
+            <p class="product-pub">Publisher: @Model.TblPublisher.PublisherName</p>
+            <p class="product-sum">@Model.Summary</p>
+            <p class="product-pri">Price: @Model.Price VND</p>
+            <div class="space-ten"></div>
+            <div class="btn-ground">
+                <a href="~/Home/Buy/@Model.BookId" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</a>
+            </div>
+        </div>
+    </div>
+</div>

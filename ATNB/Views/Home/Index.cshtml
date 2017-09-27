@@ -1,0 +1,49 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var pro =(List<ATNB.Models.TblBook>) Session["pro"];
+}
+
+<div class="row">
+
+    @foreach (var item in pro)
+    {
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 item info">
+            <a href="" data-toggle="modal" data-target="#@item.BookId">
+                <img src="~/Content/Images/Products/@item.ImgUrl" class="img-responsive imgRes" />
+                <p class="product-tit">Title: @item.Title</p>
+                <p class="product-aut">Author: @item.TblAuthor.AuthorName</p>
+                <p class="product-pub">Publisher: @item.TblPublisher.PublisherName</p>
+                <p class="product-pri">Price: @item.Price VND</p>
+            </a>
+            <div class="list-group">
+                <div class="btn-group" style="width:100%;">
+                    <a class="btn btn-danger btnBuy" href="~/Home/Buy/@item.BookId">Buy</a>
+                    <button type="button" class="btn btn-primary btnView" data-toggle="modal" data-target="#@item.BookId">View</button>
+                </div>
+                <div class="modal fade" id="@item.BookId" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title" id="exampleModalLabel">@item.TblCategory.CategoryName</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                              @{ Html.RenderPartial("~/Areas/Admin/Views/Books/Details.cshtml", item);}
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+}
+
+
+</div>

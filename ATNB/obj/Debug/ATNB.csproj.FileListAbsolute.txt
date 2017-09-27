@@ -1,0 +1,196 @@
+E:\FPT\ATNB\ATNB\bin\ApplicationInsights.config
+E:\FPT\ATNB\ATNB\bin\ATNB.dll.config
+E:\FPT\ATNB\ATNB\bin\ATNB.dll
+E:\FPT\ATNB\ATNB\bin\ATNB.pdb
+E:\FPT\ATNB\ATNB\bin\Antlr3.Runtime.dll
+E:\FPT\ATNB\ATNB\bin\EntityFramework.dll
+E:\FPT\ATNB\ATNB\bin\EntityFramework.SqlServer.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.Agent.Intercept.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.DependencyCollector.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.Web.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.WindowsServer.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.ApplicationInsights.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.Web.Infrastructure.dll
+E:\FPT\ATNB\ATNB\bin\Newtonsoft.Json.dll
+E:\FPT\ATNB\ATNB\bin\System.Web.Helpers.dll
+E:\FPT\ATNB\ATNB\bin\System.Web.Mvc.dll
+E:\FPT\ATNB\ATNB\bin\System.Web.Optimization.dll
+E:\FPT\ATNB\ATNB\bin\System.Web.Razor.dll
+E:\FPT\ATNB\ATNB\bin\System.Web.WebPages.Deployment.dll
+E:\FPT\ATNB\ATNB\bin\System.Web.WebPages.dll
+E:\FPT\ATNB\ATNB\bin\System.Web.WebPages.Razor.dll
+E:\FPT\ATNB\ATNB\bin\WebGrease.dll
+E:\FPT\ATNB\ATNB\bin\EntityFramework.xml
+E:\FPT\ATNB\ATNB\bin\EntityFramework.SqlServer.xml
+E:\FPT\ATNB\ATNB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\FPT\ATNB\ATNB\bin\System.Web.Helpers.xml
+E:\FPT\ATNB\ATNB\bin\System.Web.Mvc.xml
+E:\FPT\ATNB\ATNB\bin\System.Web.Optimization.xml
+E:\FPT\ATNB\ATNB\bin\System.Web.Razor.xml
+E:\FPT\ATNB\ATNB\bin\System.Web.WebPages.xml
+E:\FPT\ATNB\ATNB\bin\System.Web.WebPages.Deployment.xml
+E:\FPT\ATNB\ATNB\bin\System.Web.WebPages.Razor.xml
+E:\FPT\ATNB\ATNB\bin\Antlr3.Runtime.pdb
+E:\FPT\ATNB\ATNB\bin\Newtonsoft.Json.xml
+E:\FPT\ATNB\ATNB\bin\Microsoft.ApplicationInsights.xml
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.DependencyCollector.xml
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.WindowsServer.xml
+E:\FPT\ATNB\ATNB\bin\Microsoft.AI.Web.xml
+E:\FPT\ATNB\ATNB\obj\Debug\ATNB.dll
+E:\FPT\ATNB\ATNB\obj\Debug\ATNB.pdb
+E:\FPT\ATNB\ATNB\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\FPT\ATNB\ATNB\bin\System.Diagnostics.DiagnosticSource.dll
+E:\FPT\ATNB\ATNB\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\FPT\ATNB\ATNB\bin\System.Diagnostics.DiagnosticSource.xml
+E:\FPT\ATNB\ATNB\obj\Debug\ATNB.csprojResolveAssemblyReference.cache
+F:\DungLT15\ass\ATNB\bin\ApplicationInsights.config
+F:\DungLT15\ass\ATNB\bin\ATNB.dll.config
+F:\DungLT15\ass\ATNB\bin\ATNB.dll
+F:\DungLT15\ass\ATNB\bin\ATNB.pdb
+F:\DungLT15\ass\ATNB\bin\Antlr3.Runtime.dll
+F:\DungLT15\ass\ATNB\bin\EntityFramework.dll
+F:\DungLT15\ass\ATNB\bin\EntityFramework.SqlServer.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.Agent.Intercept.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.DependencyCollector.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.Web.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.WindowsServer.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.ApplicationInsights.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\DungLT15\ass\ATNB\bin\Microsoft.Web.Infrastructure.dll
+F:\DungLT15\ass\ATNB\bin\Newtonsoft.Json.dll
+F:\DungLT15\ass\ATNB\bin\System.Diagnostics.DiagnosticSource.dll
+F:\DungLT15\ass\ATNB\bin\System.Web.Helpers.dll
+F:\DungLT15\ass\ATNB\bin\System.Web.Mvc.dll
+F:\DungLT15\ass\ATNB\bin\System.Web.Optimization.dll
+F:\DungLT15\ass\ATNB\bin\System.Web.Razor.dll
+F:\DungLT15\ass\ATNB\bin\System.Web.WebPages.Deployment.dll
+F:\DungLT15\ass\ATNB\bin\System.Web.WebPages.dll
+F:\DungLT15\ass\ATNB\bin\System.Web.WebPages.Razor.dll
+F:\DungLT15\ass\ATNB\bin\WebGrease.dll
+F:\DungLT15\ass\ATNB\bin\Antlr3.Runtime.pdb
+F:\DungLT15\ass\ATNB\bin\EntityFramework.xml
+F:\DungLT15\ass\ATNB\bin\EntityFramework.SqlServer.xml
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.DependencyCollector.xml
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.Web.xml
+F:\DungLT15\ass\ATNB\bin\Microsoft.AI.WindowsServer.xml
+F:\DungLT15\ass\ATNB\bin\Microsoft.ApplicationInsights.xml
+F:\DungLT15\ass\ATNB\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\DungLT15\ass\ATNB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\DungLT15\ass\ATNB\bin\Newtonsoft.Json.xml
+F:\DungLT15\ass\ATNB\bin\System.Diagnostics.DiagnosticSource.xml
+F:\DungLT15\ass\ATNB\bin\System.Web.Helpers.xml
+F:\DungLT15\ass\ATNB\bin\System.Web.Mvc.xml
+F:\DungLT15\ass\ATNB\bin\System.Web.Optimization.xml
+F:\DungLT15\ass\ATNB\bin\System.Web.Razor.xml
+F:\DungLT15\ass\ATNB\bin\System.Web.WebPages.xml
+F:\DungLT15\ass\ATNB\bin\System.Web.WebPages.Deployment.xml
+F:\DungLT15\ass\ATNB\bin\System.Web.WebPages.Razor.xml
+F:\DungLT15\ass\ATNB\obj\Debug\ATNB.csprojResolveAssemblyReference.cache
+F:\DungLT15\ass\ATNB\obj\Debug\ATNB.dll
+F:\DungLT15\ass\ATNB\obj\Debug\ATNB.pdb
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\ApplicationInsights.config
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\ATNB.dll.config
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\ATNB.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\ATNB.pdb
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Antlr3.Runtime.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\EntityFramework.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\EntityFramework.SqlServer.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.Web.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Newtonsoft.Json.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.Helpers.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.Mvc.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.Optimization.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.Razor.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.WebPages.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.WebPages.Razor.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\WebGrease.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Antlr3.Runtime.pdb
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\EntityFramework.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\EntityFramework.SqlServer.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.Web.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\Newtonsoft.Json.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.Helpers.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.Mvc.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.Optimization.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.Razor.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.WebPages.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\bin\System.Web.WebPages.Razor.xml
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\obj\Debug\ATNB.dll
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\obj\Debug\ATNB.pdb
+C:\Users\ledun\Downloads\Compressed\ATNB (2)\ATNB\obj\Debug\ATNB.csprojResolveAssemblyReference.cache
+F:\dung\ATNB\bin\ApplicationInsights.config
+F:\dung\ATNB\bin\ATNB.dll.config
+F:\dung\ATNB\bin\ATNB.dll
+F:\dung\ATNB\bin\ATNB.pdb
+F:\dung\ATNB\bin\Antlr3.Runtime.dll
+F:\dung\ATNB\bin\EntityFramework.dll
+F:\dung\ATNB\bin\EntityFramework.SqlServer.dll
+F:\dung\ATNB\bin\Microsoft.AI.Agent.Intercept.dll
+F:\dung\ATNB\bin\Microsoft.AI.DependencyCollector.dll
+F:\dung\ATNB\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\dung\ATNB\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\dung\ATNB\bin\Microsoft.AI.Web.dll
+F:\dung\ATNB\bin\Microsoft.AI.WindowsServer.dll
+F:\dung\ATNB\bin\Microsoft.ApplicationInsights.dll
+F:\dung\ATNB\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\dung\ATNB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\dung\ATNB\bin\Microsoft.Web.Infrastructure.dll
+F:\dung\ATNB\bin\Newtonsoft.Json.dll
+F:\dung\ATNB\bin\System.Diagnostics.DiagnosticSource.dll
+F:\dung\ATNB\bin\System.Web.Helpers.dll
+F:\dung\ATNB\bin\System.Web.Mvc.dll
+F:\dung\ATNB\bin\System.Web.Optimization.dll
+F:\dung\ATNB\bin\System.Web.Razor.dll
+F:\dung\ATNB\bin\System.Web.WebPages.Deployment.dll
+F:\dung\ATNB\bin\System.Web.WebPages.dll
+F:\dung\ATNB\bin\System.Web.WebPages.Razor.dll
+F:\dung\ATNB\bin\WebGrease.dll
+F:\dung\ATNB\bin\Antlr3.Runtime.pdb
+F:\dung\ATNB\bin\EntityFramework.xml
+F:\dung\ATNB\bin\EntityFramework.SqlServer.xml
+F:\dung\ATNB\bin\Microsoft.AI.DependencyCollector.xml
+F:\dung\ATNB\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\dung\ATNB\bin\Microsoft.AI.Web.xml
+F:\dung\ATNB\bin\Microsoft.AI.WindowsServer.xml
+F:\dung\ATNB\bin\Microsoft.ApplicationInsights.xml
+F:\dung\ATNB\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\dung\ATNB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\dung\ATNB\bin\Newtonsoft.Json.xml
+F:\dung\ATNB\bin\System.Diagnostics.DiagnosticSource.xml
+F:\dung\ATNB\bin\System.Web.Helpers.xml
+F:\dung\ATNB\bin\System.Web.Mvc.xml
+F:\dung\ATNB\bin\System.Web.Optimization.xml
+F:\dung\ATNB\bin\System.Web.Razor.xml
+F:\dung\ATNB\bin\System.Web.WebPages.xml
+F:\dung\ATNB\bin\System.Web.WebPages.Deployment.xml
+F:\dung\ATNB\bin\System.Web.WebPages.Razor.xml
+F:\dung\ATNB\obj\Debug\ATNB.dll
+F:\dung\ATNB\obj\Debug\ATNB.pdb
+F:\dung\ATNB\obj\Debug\ATNB.csprojResolveAssemblyReference.cache
